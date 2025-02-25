@@ -1,0 +1,217 @@
+# Cursor AI Rules for Project
+
+## File Modification Rules
+
+- DO NOT rewrite or replace existing source code files
+
+- ONLY extend or edit existing files, preserving original structure and intent
+
+- NEVER delete any files under any circumstances
+
+- CAN create new files when needed
+
+- PREFER smaller, incremental changes over large rewrites
+
+- MAINTAIN file organization patterns already established
+
+## Context Awareness Rules
+
+- ALWAYS consider the full project context before suggesting changes
+
+- REFERENCE previous conversations with users for consistency
+
+- UNDERSTAND the overall architecture and design patterns in use
+
+- MAINTAIN coding style consistency with existing files
+
+- ANALYZE imports and dependencies before suggesting new ones
+
+- IDENTIFY and RESPECT the project's state management approach
+
+- RECOGNIZE repeated patterns in the codebase and follow them
+
+## Before Completing Tasks
+
+- THINK thoroughly before implementing any solution
+
+- ANALYZE potential impacts on other parts of the codebase
+
+- CONSIDER the stated requirements in context of the entire project
+
+- EXPLAIN reasoning when suggesting significant changes
+
+- PROVIDE multiple approaches when appropriate with pros/cons
+
+- BREAK DOWN complex tasks into smaller, manageable steps
+
+- ESTIMATE potential performance implications of changes
+
+## Language-Specific Guidelines
+
+### Python
+
+- FOLLOW PEP 8 style guidelines
+
+- USE type hints whenever possible
+
+- PREFER list/dict comprehensions for simple transformations
+
+- MAINTAIN consistent docstring style (Google, NumPy, or reStructuredText)
+
+- LEVERAGE context managers (with statements) for resource management
+
+- AVOID excessive nesting of control structures
+
+- USE virtual environments and maintain requirements.txt/Pipfile
+
+## JavaScript
+
+- FOLLOW consistent patterns already established in the project
+
+- USE destructuring for objects and arrays when appropriate
+
+- MAINTAIN clear separation between UI and business logic
+
+- PREFER async/await over Promise chains
+
+- CONSIDER TypeScript for type checking if already in use
+
+- KEEP functions focused on a single responsibility
+
+- USE modern ES6+ features appropriately
+
+## HTML/CSS
+
+- MAINTAIN consistent indentation and formatting
+
+- USE semantic HTML elements when appropriate
+
+- FOLLOW responsive design patterns already in the project
+
+- KEEP CSS selectors specific enough but not overly complex
+
+- ORGANIZE CSS using the existing project's methodology (BEM, SMACSS, etc.)
+
+- ENSURE compatibility with target browsers
+
+- OPTIMIZE for maintainability over excessive abstractions
+
+## Performance Optimization
+
+- SUGGEST code that optimizes resource usage
+
+- IDENTIFY and RESOLVE potential bottlenecks
+
+- RECOMMEND appropriate data structures for operations
+
+- MINIMIZE unnecessary processing or computations
+
+- SUGGEST appropriate caching strategies
+
+- USE memoization techniques where beneficial
+
+- CONSIDER pagination or virtualization for large data sets
+
+- OPTIMIZE resource loading (lazy loading when appropriate)
+
+## Error Handling and Testing
+
+- INCLUDE appropriate error handling in all code
+
+- SUGGEST try/except blocks with specific exceptions in Python
+
+- RECOMMEND try/catch blocks in JavaScript
+
+- INCLUDE input validation where appropriate
+
+- SUGGEST test cases or testing strategies when adding new features
+
+- FOLLOW test-driven development principles when possible
+
+- MAINTAIN existing test coverage
+
+- HANDLE edge cases explicitly
+
+## Development Process Rules
+
+- ASK clarifying questions when requirements are ambiguous
+
+- PROVIDE explanations for suggested changes
+
+- PRESERVE comments and documentation in code
+
+- FOLLOW established naming conventions in the project
+
+- SUGGEST documentation updates when adding new features
+
+- MAINTAIN consistent commit message style if observed
+
+- RECOMMEND code refactoring opportunities while preserving functionality
+
+- HIGHLIGHT potential technical debt in a constructive manner
+
+- PRIORITIZE readability and maintainability over clever code
+
+## Security Considerations
+
+- ALWAYS validate user inputs
+
+- PREVENT injection attacks in database operations
+
+- AVOID exposing sensitive information in logs or errors
+
+- SUGGEST secure authentication and authorization practices
+
+- RECOMMEND proper security configurations
+
+- IDENTIFY and address potential security vulnerabilities
+
+- FOLLOW industry security guidelines appropriate to the project
+
+## Accessibility Guidelines (for web projects)
+
+- SUGGEST semantic HTML elements
+
+- RECOMMEND proper ARIA attributes where applicable
+
+- ENSURE color contrast meets accessibility standards
+
+- SUGGEST keyboard navigation support
+
+- MAINTAIN focus management in interactive components
+
+- PROVIDE text alternatives for non-text content
+
+## Code Review Practices
+
+- EXPLAIN reasoning behind complex algorithms
+
+- HIGHLIGHT optimizations or performance improvements
+
+- SUGGEST unit tests for edge cases
+
+- POINT OUT potential bugs or edge cases
+
+- RECOMMEND documentation for complex logic
+
+- PROVIDE links to relevant documentation or best practices
+
+- CONSIDER backward compatibility
+
+- ANALYZE edge cases and potential failure modes
+
+## Project-Specific Patterns
+
+- IDENTIFY and FOLLOW patterns specific to this project
+
+- RESPECT the existing architecture and design decisions
+
+- MAINTAIN consistency with established coding practices
+
+- UNDERSTAND the project's unique constraints and requirements
+
+- ADAPT suggestions to match the project's maturity and scale
+
+- PRESERVE the existing testing strategy
+
+- RESPECT configuration management approaches already in place
