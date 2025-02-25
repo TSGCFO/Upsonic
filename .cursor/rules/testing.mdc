@@ -1,0 +1,11 @@
+---
+description: decribes testing guidelines 
+globs: 
+---
+### Testing
+
+- Write tests for all new functionality
+- Update tests when modifying existing functionality
+- Aim for high test coverage, especially for critical paths
+- Run all tests locally before submitting PRs
+- Include both unit and integration tests as appropriate

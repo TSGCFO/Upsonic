@@ -1,0 +1,24 @@
+---
+description: coding standards for the project
+globs: 
+---
+## Code Standards
+
+### General Principles
+
+- Write readable, maintainable code over clever solutions
+- Follow the principle of least surprise
+- Keep functions and methods small and focused on a single responsibility
+- Limit function/method length to 50 lines where possible
+- Comment \"why\", not \"what\" (the code should explain what it does)
+
+### Version Control
+
+- Make small, focused commits with clear messages
+- Commit message format: `[Type]: Brief description of change` 
+- Types: feat, fix, docs, style, refactor, test, chore
+- Reference issue numbers in commit messages when applicable
+- Keep pull requests focused on a single concern
+- Rebase feature branches before requesting review
+
+

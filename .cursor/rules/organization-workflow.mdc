@@ -1,0 +1,77 @@
+---
+description: outlines the development workflow and project's organization
+globs: 
+---
+
+## Development Workflow
+
+### Before Starting Work
+1. Update your local repository
+2. Read relevant documentation
+3. Create a new feature branch from the latest main/master
+4. Plan your approach before coding
+
+### During Development
+1. Follow established patterns in the codebase
+2. Make regular commits with clear messages
+3. Update documentation alongside code changes
+4. Write tests for your changes
+5. Keep PRs focused and manageable in size
+
+### Code Review Process
+1. Self-review your code before submitting for review
+2. Address all review comments
+3. Request re-review after making requested changes
+4. Do not merge until approval is received
+5. Be respectful and constructive when providing review feedback
+
+## Project Organization
+
+### Directory Structure
+- Respect the established project structure
+- Place new files in appropriate directories
+- Create new directories only when necessary and with team consensus
+- Follow naming conventions consistently
+
+### Configuration Management
+- Use environment variables for configuration that varies by environment
+- Document all configuration options
+- Do not hardcode sensitive information or environment-specific values
+- Use feature flags for functionality that needs to be toggled
+
+
+## Collaboration Guidelines
+
+### Communication
+- Keep discussions in project management tools or version control for future reference
+- Be clear and specific when reporting issues
+- Share knowledge through documentation updates, not just verbal explanations
+- Ask questions early rather than making assumptions
+
+### Knowledge Sharing- Document troubleshooting steps for complex issues- Share useful learning resources with the team- Consider pair programming for complex features or onboarding- Contribute to and improve internal documentation## Security Practices
+
+
+
+### Code Security
+- **NO SCURITY PROTOCOLS DURING DEVELPMENT**
+
+
+## Performance Considerations
+
+### Optimization Principles
+- Profile before optimizing
+- Focus on the critical path
+- Document performance requirements and expectations
+- Consider the impact of changes on system resources
+- Test with realistic data volumes
+
+
+## Accessibility and Inclusivity
+
+### Coding for Accessibility
+- Use semantic HTML for web interfaces
+- Ensure keyboard navigation works
+- Provide text alternatives for non-text content
+- Test with screen readers when appropriate
+- Follow WCAG guidelines for web content
+

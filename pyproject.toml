@@ -42,7 +42,7 @@ build-backend = "hatchling.build"
 [tool.uv]
 default-groups = ["dev"]
 
-[dependency-groups]
+[project.optional-dependencies]
 dev = [
     "mypy>=1.14.1",
     "pre-commit>=4.0.1",

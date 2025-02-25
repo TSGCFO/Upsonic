@@ -1,9 +1,34 @@
 ---
-description:
-globs:
+description: Documentation First Approach
+globs: 
 ---
+## Documentation First Approach
 
-# Your rule content
 
-- You can @ files here
-- You can use markdown but dont have to
+### Always Read Documentation
+
+- **READ all documentation** before starting work on any component
+- **LOCATE and READ any README.md or other .md files** in directories you're working with
+- Directory-level documentation takes precedence over project
+-level documentation when conflicts exist
+- If documentation is unclear or outdated, seek clarification from senior team members before proceeding
+
+
+
+### Always Update Documentation
+- **UPDATE documentation when making ANY changes** to code or configuration
+- Documentation updates should be committed in the same PR as code changes
+- When adding new features, include clear usage examples in documentation
+- Add inline comments for complex code segments
+- Update API documentation when changing interfaces
+
+
+### Documentation Quality Standards
+- Documentation should be clear, concise, and comprehensive
+- Include purpose, usage examples, and known limitations
+- Use consistent formatting and structure
+- For user-facing features, include screenshots or diagrams when helpful
+- Document all configuration options and environment variables
+
+
+
